@@ -1,10 +1,10 @@
-# VOC 智能分类与优先级评估
+﻿# VOC 智能分类与优先级评估
 
 基于服务运营场景构建的客诉/VOC 智能分析 Demo。系统将用户问题文本转化为可运营的分类、情绪、优先级、处理建议和批量异常信号，用于模拟智能客服、服务分流和风险前置识别。
 
 ## 在线演示
 
-https://complaint-classifier-crxmkw4rzhybwb5ksusx2d.streamlit.app
+https://complaint-classifier-demo.streamlit.app
 
 ## 业务背景
 
@@ -49,3 +49,4 @@ streamlit run app.py
 - 将服务 SOP 中的人工判断规则产品化。
 - 设计“规则引擎 + AI 增强”的可降级方案，避免 Demo 依赖 API Key。
 - 从单条客诉分析扩展到批量异常识别，体现服务风险前置治理思路。
+

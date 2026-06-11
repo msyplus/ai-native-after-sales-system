@@ -52,7 +52,7 @@ SYSTEMS = [
         "analysis": "把客户原始表达转成意图、槽位、风险标签、知识依据和下一步动作。",
         "output": "case_id、customer_intent、required_slots、risk_tags、knowledge_refs、handoff_summary、next_action。",
         "tooling": "规则引擎负责意图识别和风险标签，知识库检索提供 SOP 依据，高风险场景标记人工确认边界。",
-        "url": "https://ai-assistant-app-msydemo.streamlit.app",
+        "url": "https://customer-agent-demo.streamlit.app",
     },
     {
         "name": "VOC 智能分类与优先级评估",
@@ -65,7 +65,7 @@ SYSTEMS = [
         "analysis": "把非结构化文本拆成分类标签、情绪、优先级和建议动作。",
         "output": "分类结果、优先级、处理建议、异常聚集提示。",
         "tooling": "规则引擎负责稳定分类兜底，AI 模型负责语义理解和复杂表达判断，人工负责低置信度复核。",
-        "url": "https://complaint-classifier-crxmkw4rzhybwb5ksusx2d.streamlit.app",
+        "url": "https://complaint-classifier-demo.streamlit.app",
     },
     {
         "name": "批量异常识别与服务风险预警",
@@ -78,7 +78,7 @@ SYSTEMS = [
         "analysis": "把 VOC 拆成事件类型、聚集程度、时间异常、升级风险和影响范围。",
         "output": "异常主题、风险等级、趋势判断、响应建议和 Markdown 报告。",
         "tooling": "统计聚类发现聚集，敏感词规则识别确定性风险，AI 引擎补充语义聚类和根因总结。",
-        "url": "https://voc-risk-detector-mgneov7ezrugngxdwoynzf.streamlit.app",
+        "url": "https://voc-risk-detector-demo.streamlit.app",
     },
     {
         "name": "客服对话质量评估",
@@ -91,7 +91,7 @@ SYSTEMS = [
         "analysis": "把对话质量拆成需求识别、共情、方案一致和承诺回复四个维度。",
         "output": "维度评分、问题定位、改进话术和 badcase 清单。",
         "tooling": "规则标准保证评分口径稳定，AI 负责理解对话语义，人工质检负责争议样本复核。",
-        "url": "https://cs-quality-evaluator-kwkg6qntv2gwruquwijmgp.streamlit.app",
+        "url": "https://cs-quality-evaluator-demo.streamlit.app",
     },
     {
         "name": "服务事件智能摘要",
@@ -104,7 +104,7 @@ SYSTEMS = [
         "analysis": "把长文本拆成事件类型、关键事实、用户诉求、处理动作和待跟进事项。",
         "output": "结构化摘要、风险等级、关键词保留率和人工评分反馈。",
         "tooling": "Prompt 约束输出结构，规则提取关键字段，人工评分反馈用于判断摘要是否可用。",
-        "url": "https://summary-system-4.streamlit.app",
+        "url": "https://summary-system-demo.streamlit.app",
     },
     {
         "name": "客服 SOP 知识库问答",
@@ -117,7 +117,7 @@ SYSTEMS = [
         "analysis": "把知识文档拆成可检索片段，并将问题匹配到相关规则和历史口径。",
         "output": "引用依据、判断逻辑、建议动作和人工确认边界。",
         "tooling": "检索负责找依据，生成负责组织回答，人工负责确认规则适用性和高风险边界。",
-        "url": "https://service-rag-demo.streamlit.app",
+        "url": "https://service-rag-msydemo.streamlit.app",
     },
     {
         "name": "AI native 售后服务系统控制台",
@@ -130,7 +130,7 @@ SYSTEMS = [
         "analysis": "把单点能力组织成可解释、可验证的 AI native 售后服务工作流。",
         "output": "模块入口、工作流、核心指标、1.0/2.0 演进说明。",
         "tooling": "控制台不替代业务模块，负责组织入口、表达系统边界和串联验证路径。",
-        "url": "https://ai-native-after-sales-system.streamlit.app",
+        "url": "https://ai-native-system-msydemo.streamlit.app",
     },
 ]
 

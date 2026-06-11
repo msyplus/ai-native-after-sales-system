@@ -1,4 +1,4 @@
-# AI native 售后服务系统控制台/门户
+﻿# AI native 售后服务系统控制台/门户
 
 这是一个基于真实服务运营经验构建的 AI native 售后服务系统控制台/门户，聚合对客沟通机器人、VOC 智能分类、批量异常预警、客服对话质检、客服 SOP 知识库问答和服务事件智能摘要等模块。
 
@@ -12,22 +12,22 @@
 
 系统总入口：
 
-https://ai-native-after-sales-system.streamlit.app
+https://ai-native-system-msydemo.streamlit.app
 
 对客沟通机器人：
 
-https://ai-assistant-app-msydemo.streamlit.app
+https://customer-agent-demo.streamlit.app
 
 ## 模块清单
 
 | 模块 | 业务价值 | Demo |
 |---|---|---|
-| 对客沟通机器人 | 承接客户自然语言输入，生成统一 case，识别风险并转人工 | https://ai-assistant-app-msydemo.streamlit.app |
-| VOC 智能分类与优先级评估 | 将客诉文本转化为类别、情绪、优先级和处理建议 | https://complaint-classifier-crxmkw4rzhybwb5ksusx2d.streamlit.app |
-| 批量异常识别与服务风险预警 | 识别 VOC 聚集、敏感风险和时间异常 | https://voc-risk-detector-mgneov7ezrugngxdwoynzf.streamlit.app |
-| 客服对话质量评估 | 从四个维度评估客服对话质量 | https://cs-quality-evaluator-kwkg6qntv2gwruquwijmgp.streamlit.app |
-| 客服 SOP 知识库问答 | 检索 SOP、质检标准和风险规则，并输出带引用依据的处理建议 | https://service-rag-demo.streamlit.app |
-| 服务事件智能摘要 | 将对话、日志和备注压缩为结构化摘要 | https://summary-system-4.streamlit.app |
+| 对客沟通机器人 | 承接客户自然语言输入，生成统一 case，识别风险并转人工 | https://customer-agent-demo.streamlit.app |
+| VOC 智能分类与优先级评估 | 将客诉文本转化为类别、情绪、优先级和处理建议 | https://complaint-classifier-demo.streamlit.app |
+| 批量异常识别与服务风险预警 | 识别 VOC 聚集、敏感风险和时间异常 | https://voc-risk-detector-demo.streamlit.app |
+| 客服对话质量评估 | 从四个维度评估客服对话质量 | https://cs-quality-evaluator-demo.streamlit.app |
+| 客服 SOP 知识库问答 | 检索 SOP、质检标准和风险规则，并输出带引用依据的处理建议 | https://service-rag-msydemo.streamlit.app |
+| 服务事件智能摘要 | 将对话、日志和备注压缩为结构化摘要 | https://summary-system-demo.streamlit.app |
 
 ## 项目定位
 
@@ -66,3 +66,4 @@ streamlit run app.py
 ## 面试展示话术
 
 这组 Demo 不是随机练手项目，而是我把过去做过的服务 AI 系统重新组织成一个 AI native 售后服务闭环：从对客输入开始，生成统一 case，再进入知识引用、风险判断、分类分流、摘要质检和反馈优化。它对应我对 AI 服务系统的核心理解：AI 不应该只是把人工脚本自动化，而应该重组服务信息流、判断流、人机分工和质量反馈闭环。
+

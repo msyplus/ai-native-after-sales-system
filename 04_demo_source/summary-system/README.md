@@ -1,10 +1,10 @@
-# 服务事件智能摘要
+﻿# 服务事件智能摘要
 
 面向客服工单、对话记录和操作日志的智能摘要 Demo。系统将长文本服务记录压缩为结构化摘要，模拟 AI 自动总结在工单录入、事件复盘和交接协同中的应用。
 
 ## 在线演示
 
-https://summary-system-4.streamlit.app
+https://summary-system-demo.streamlit.app
 
 ## 业务背景
 
@@ -49,3 +49,4 @@ streamlit run app.py
 - 如何从一线 SOP 中识别适合 LLM 的高频、低风险场景。
 - 如何通过固定模板、必填字段、字数约束和 Badcase 回流提升摘要质量。
 - 如何把“模型生成文本”嵌入工单工作流，而不是制造新的工具负担。
+

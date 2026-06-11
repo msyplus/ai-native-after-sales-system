@@ -1,10 +1,10 @@
-# 客服对话质量评估
+﻿# 客服对话质量评估
 
 面向智能质检场景的客服对话评估 Demo。系统围绕识别需求、有效共情、达成一致、承诺回复四个维度，对客服与用户的对话进行结构化评分和问题定位。
 
 ## 在线演示
 
-https://cs-quality-evaluator-kwkg6qntv2gwruquwijmgp.streamlit.app
+https://cs-quality-evaluator-demo.streamlit.app
 
 ## 业务背景
 
@@ -48,3 +48,4 @@ streamlit run app.py
 - 如何把“服务好不好”拆成可评估、可追问的维度。
 - 如何用 Badcase 反推质检标准本身是否清晰。
 - 如何从人工抽检思路升级到全量自动化质检思路。
+

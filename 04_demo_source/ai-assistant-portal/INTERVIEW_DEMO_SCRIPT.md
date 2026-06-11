@@ -1,4 +1,4 @@
-# AI native 售后服务系统：面试演示脚本
+﻿# AI native 售后服务系统：面试演示脚本
 
 这份脚本用于 AI 产品运营 / AI 服务运营面试。目标不是逐个介绍功能，而是把 Demo 讲成一套 AI native 售后服务系统：对客输入、统一 case、知识引用、风险判断、摘要质检和反馈优化。
 
@@ -16,17 +16,17 @@
 
 主入口：
 
-https://ai-native-after-sales-system.streamlit.app
+https://ai-native-system-msydemo.streamlit.app
 
 对客机器人：
 
-https://ai-assistant-app-msydemo.streamlit.app
+https://customer-agent-demo.streamlit.app
 
 ### 1. VOC 智能分类与优先级评估
 
 打开：
 
-https://complaint-classifier-crxmkw4rzhybwb5ksusx2d.streamlit.app
+https://complaint-classifier-demo.streamlit.app
 
 演示动作：
 
@@ -48,7 +48,7 @@ https://complaint-classifier-crxmkw4rzhybwb5ksusx2d.streamlit.app
 
 打开：
 
-https://voc-risk-detector-mgneov7ezrugngxdwoynzf.streamlit.app
+https://voc-risk-detector-demo.streamlit.app
 
 演示动作：
 
@@ -70,7 +70,7 @@ https://voc-risk-detector-mgneov7ezrugngxdwoynzf.streamlit.app
 
 打开：
 
-https://cs-quality-evaluator-kwkg6qntv2gwruquwijmgp.streamlit.app
+https://cs-quality-evaluator-demo.streamlit.app
 
 演示动作：
 
@@ -92,7 +92,7 @@ https://cs-quality-evaluator-kwkg6qntv2gwruquwijmgp.streamlit.app
 
 打开：
 
-https://service-rag-demo.streamlit.app
+https://service-rag-msydemo.streamlit.app
 
 演示动作：
 
@@ -115,7 +115,7 @@ https://service-rag-demo.streamlit.app
 
 打开：
 
-https://summary-system-4.streamlit.app
+https://summary-system-demo.streamlit.app
 
 演示动作：
 
@@ -137,7 +137,7 @@ https://summary-system-4.streamlit.app
 
 打开：
 
-https://ai-native-after-sales-system.streamlit.app
+https://ai-native-system-msydemo.streamlit.app
 
 建议话术：
 
@@ -168,5 +168,6 @@ https://ai-native-after-sales-system.streamlit.app
 建议回答：
 
 > 我的优势是业务到系统的翻译能力。我不是算法工程师，但我知道一个服务场景应该如何定义输入、输出、评估标准和 Badcase 反馈机制，这正是 AI 应用落地时最容易缺的一环。
+
 
 
